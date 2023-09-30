@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="icon" href="images/fav.jpg" type="image/jpg" sizes="16x16">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@100&display=swap"
+      rel="stylesheet"
+    />
+<script>
+  window.onload = function(){
+    // can test it by ctrl+f5
+document.getElementById('loader').style.display="none";
+document.getElementById('content').style.display="block";
+    
+  };
+</script>
+<style>
+  #content{
+    display: none;
+  }
+  #loader{
+    background-color: #009688;
+
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #loader img{
+    
+    width: 250px;
+    height: 250px;
+   
+  }
+</style>
+  </head>
+  <body>
+    <div id="loader">
+      <img src="images/scissor.gif" alt="scissorgif">
+    </div>
+<div id="content">
+
+
+    <!-- first section -->
+    <section id="banner">
+      <img src="images/logo.png" alt="logo" class="logo" />
+      <div class="banner_text">
+        <h1>Hair Studio</h1>
+        <p>styling your hair is styling your life</p>
+        <div class="banner_btn">
+          <a href="#"><span></span>Find out</a>
+          <a href="#"><span></span>Read more</a>
+        </div>
+      </div>
+    </section>
+    <div id="navigation">
+      <nav>
+        <ul>
+          <li><a href="#banner">Home</a></li>
+          <li><a href="#feature">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+          <li><a href="#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="menubtn">
+      <img src="images/menu.png" id="menu" alt="menu" />
+    </div>
+
+    <!-- features -->
+
+    <section id="feature">
+      <div class="title_text">
+        <p>FEATURES</p>
+        <h1>Why Choose Us ?</h1>
+      </div>
+
+      <div class="feature_box">
+        <div class="features">
+          <h1>Experienced Staff</h1>
+
+          <div class="features_desc">
+            <div class="features_icon">
+              <i class="fa fa-shield"></i>
+            </div>
+            <div class="features_text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Eligendi, error animi! Dignissimos velit minus ducimus itaque,
+                omnis sequi ad saepe.
+              </p>
+            </div>
+          </div>
+
+          <div class="features">
+            <h1>Pre Booking Online</h1>
+            <div class="features_desc">
+              <div class="features_icon">
+                <i class="fa fa-check-square"></i>
+              </div>
+              <div class="features_text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi, error animi! Dignissimos velit minus ducimus itaque,
+                  omnis sequi ad saepe.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="features">
+            <h1>Affordable Price</h1>
+            <div class="features_desc">
+              <div class="features_icon">
+                <i class="fa fa-inr"></i>
+              </div>
+              <div class="features_text">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Eligendi, error animi! Dignissimos velit minus ducimus itaque,
+                  omnis sequi ad saepe.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="features_img">
+          <img src="/images/barber-man.jpg" alt="image_barberman" />
+        </div>
+      </div>
+    </section>
+
+    <!-- features -->
+
+    <!-- code for service section -->
+
+    <section id="services">
+      <div class="title_text">
+        <p>SERVICES</p>
+        <h1>We Provide Better</h1>
+      </div>
+
+      <div class="service_box">
+        <div class="single_service">
+          <img src="images/pic-1.jpg" alt="images" />
+          <div class="overlay"></div>
+          <div class="service_desc">
+            <h3>Hair Styling</h3>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi,
+              suscipit!
+            </p>
+          </div>
+        </div>
+        <div class="single_service">
+          <img src="images/pic-2.jpg" alt="images" />
+          <div class="overlay"></div>
+          <div class="service_desc">
+            <h3>Hair Styling</h3>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi,
+              suscipit!
+            </p>
+          </div>
+        </div>
+        <div class="single_service">
+          <img src="images/pic-3.jpg" alt="images" />
+          <div class="overlay"></div>
+          <div class="service_desc">
+            <h3>Hair Styling</h3>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi,
+              suscipit!
+            </p>
+          </div>
+        </div>
+        <div class="single_service">
+          <img src="images/pic-4.jpg" alt="images" />
+          <div class="overlay"></div>
+          <div class="service_desc">
+            <h3>Hair Styling</h3>
+            <hr />
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi,
+              suscipit!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- code for service section -->
+
+     <!-- code for feedback section -->
+
+     <section id="feedback">
+      <div class="title_text">
+        <p>FEEDBACK</p>
+        <h1>What Client Says</h1>
+      </div>
+      <div class="feedback_row">
+        <div class="feedback_col">
+          <div class="user">
+            <img src="images/img-1.jpg" alt="img1">
+            <div class="user_info">
+              <h4>Sharukh Khan <i class="fa-brands fa-twitter"></i></h4>
+              <small>@sharukhkhan</small>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit 
+          amet consectetur adipisicing elit.
+           Animi ullam ea sit, quae consequuntur 
+           at adipisci maxime iure aspernatur natus
+            ipsam exercitationem eos ipsum omnis.</p>
+          </div>
+        <div class="feedback_col">
+          <div class="user">
+            <img src="images/img-2.jpeg" alt="img1">
+            <div class="user_info">
+              <h4>Dipika Padukone<i class="fa-brands fa-twitter"></i></h4>
+              <small>@dipikapadukone</small>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit 
+          amet consectetur adipisicing elit.
+           Animi ullam ea sit, quae consequuntur 
+           at ad</p>
+          </div>
+        <div class="feedback_col">
+          <div class="user">
+            <img src="images/img-3.jpg" alt="img1">
+            <div class="user_info">
+              <h4>mukesh ambani<i class="fa-brands fa-twitter"></i></h4>
+              <small>@mukeshambani</small>
+            </div>
+          </div>
+          <p>Lorem ipsum dolor sit 
+          amet consectetur adipisicing elit.
+           Animi ullam ea sit, quae consequuntur 
+           at adipisci maxime iure aspernatur natus
+            ipsam exercitationem eos ipsum omnis.</p></div>
+      </div>
+     <!-- code for feedback section -->
+<!-- code for footer section -->
+<section id="footer">
+  <img src="images/footer-img.png" alt="imgpng" class="footer_img">
+  <div class="title_text">
+    <p>CONTACT US</p>
+    <h1>Visit Our Shop Now</h1>
+  </div>
+  <div class="footer_row">
+    <div class="footer_left"> 
+      <h1>Opening Hours</h1>
+      <p> <i class="fa fa-clock"></i>Monday to Friday- 9am - 9pm </p>
+      <p> <i class="fa fa-clock"></i>Saturday , Sunday- 8am - 11 pm</p>
+    </div>
+    <div class="footer_right">
+      <h1>Get In Touch</h1>
+      <p>101 xyz Colony , xyz city in <i class="fa fa-map-marker"></i></p>
+      <p>SALOON@GMAIL.COM <i class="fa fa-paper-plane"></i></p>
+      <p>+91-9876543217 <i class="fa fa-phone"></i></p>
+    </div>
+  </div>
+  <div class="social_media">
+    <a href="https://www.wikipedia.org/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-twitter"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <p>all rights reserved @anilyadav</p>
+  </div>
+</section>
+</div>
+
+<!-- code for footer section -->
+    <script>
+      var menubtn = document.getElementById("menubtn");
+      var navigation = document.getElementById("navigation");
+      var menu = document.getElementById("menu");
+
+      //   very important javascript
+      navigation.style.right = "-200px";
+      menubtn.onclick = function () {
+        if (navigation.style.right == "-200px") {
+          navigation.style.right = "0px";
+          menu.src = "images/close.png";
+        } else {
+          navigation.style.right = "-200px";
+          menu.src = "images/menu.png";
+        }
+      };
+    </script>
+  </body>
+</html>
