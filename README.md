@@ -1,6 +1,6 @@
 # Hair Saloon Web App
 
-description: A dynamic hair salon web application built with HTML, CSS, and JavaScript, ensuring optimal display across all devices from small screens to desktops. Hosted on GitHub Pages, it made me solidify my understanding of how an end to end fully functional webapp is created.
+Description: A dynamic hair salon web application built with HTML, CSS, and JavaScript, ensuring optimal display across all devices from small screens to desktops. Hosted on GitHub Pages, it made me solidify my understanding of how an end to end fully functional webapp is created.
 
 ## Deployment
 
